@@ -8,4 +8,4 @@ O projeto consiste em armazenar os dados de usuários assim como suas builds de 
 
 Os testes das requisições foram feitos no Postman.
 
-Projeto documentado no Swagger (http://localhost:8080/swagger-ui/index.html#/).
+Projeto documentado no Swagger.
