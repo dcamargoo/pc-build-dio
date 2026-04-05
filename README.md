@@ -7,3 +7,5 @@ Criei um projeto do zero aplicando as técnicas aprendidas!
 O projeto consiste em armazenar os dados de usuários assim como suas builds de PC.
 
 Os testes das requisições foram feitos no Postman.
+
+Projeto documentado no Swagger (http://localhost:8080/swagger-ui/index.html#/).
