@@ -8,6 +8,12 @@ O projeto consiste em armazenar os dados de usuários assim como suas builds de 
 
 Primeiramente os testes das requisições foram feitos no Postman.
 
+## Tecnologias usadas
+- Java
+- Spring Boot
+- H2 (banco de dados em memória)
+- Swagger (documentação)
+
 ## Documentação no Swagger
 
 ### POST
