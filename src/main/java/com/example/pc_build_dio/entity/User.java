@@ -1,5 +1,7 @@
 package com.example.pc_build_dio.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 
 // classe para usuários
@@ -10,10 +12,11 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private Long id;
 
+    @Schema(example = "Daniel")
     private String name;
-    private int age;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "build_id")
@@ -33,14 +36,6 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public Build getBuild() {

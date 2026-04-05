@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+// lógica do negócio
+
 @Service
 public class UserService {
 
@@ -26,6 +28,10 @@ public class UserService {
     public User getUser(Long id){
         return userRepository.findById(id)
                 .orElseThrow();
+    }
+
+    public void deleteUser(Long id){
+        userRepository.deleteById(id);
     }
 
 }
