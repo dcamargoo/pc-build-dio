@@ -1,4 +1,4 @@
-# Desafio Spring Boot DIO
+# PC Build
 
 Esse desafio foi proposto na atividade "Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework" pela empresa DIO, o qual permitiu que eu aprendesse sobre os padrões de construção de projetos em Java com Spring Boot.
 
