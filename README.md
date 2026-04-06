@@ -8,21 +8,24 @@ O projeto consiste em armazenar os dados de usuários assim como suas builds de 
 
 Primeiramente os testes das requisições foram feitos no Postman.
 
-## Tecnologias usadas
+## Tecnologias Usadas
 - Java
 - Spring Boot
 - H2 (banco de dados em memória)
 - Swagger (documentação)
 
-## Como executar
+## Como Executar
 
-Executar esse comando no diretório do projeto:
+1. Executar esse comando no diretório do projeto:
 ```bash
 mvn spring-boot:run
 ```
-Para acessar a documentação Swagger é só usar essa URL: http://localhost:8080/swagger-ui/index.html#/
 
-## Imagens da documentação no Swagger
+---
+
+2. Para acessar a documentação Swagger enquanto o servidor está ativo, é só usar essa URL: http://localhost:8080/swagger-ui/index.html#/
+
+## Imagens da Documentação no Swagger
 
 ### POST
 <img width="961" height="482" alt="image" src="https://github.com/user-attachments/assets/98b50b71-f408-4e75-a29b-20d6cae70f79" />
