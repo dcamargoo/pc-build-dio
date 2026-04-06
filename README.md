@@ -14,7 +14,15 @@ Primeiramente os testes das requisições foram feitos no Postman.
 - H2 (banco de dados em memória)
 - Swagger (documentação)
 
-## Documentação no Swagger
+## Como executar
+
+Executar esse comando no diretório do projeto:
+```bash
+mvn spring-boot:run
+```
+Para acessar a documentação Swagger é só usar essa URL: http://localhost:8080/swagger-ui/index.html#/
+
+## Imagens da documentação no Swagger
 
 ### POST
 <img width="961" height="482" alt="image" src="https://github.com/user-attachments/assets/98b50b71-f408-4e75-a29b-20d6cae70f79" />
