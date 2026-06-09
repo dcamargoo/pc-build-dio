@@ -16,6 +16,8 @@ Primeiramente os testes das requisições foram feitos no Postman.
 - **H2** (banco de dados em memória)
 - **Swagger** (documentação)
 
+---
+
 ## Como Executar
 
 1. Executar esse comando no diretório do projeto:
