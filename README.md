@@ -12,7 +12,7 @@ Primeiramente os testes das requisições foram feitos no Postman.
 
 ## Tecnologias Usadas
 - **Java 21**
-- **Spring Boot 4.0**
+- **Spring Boot 4.0.6**
 - **H2** (banco de dados em memória)
 - **Swagger** (documentação)
 
