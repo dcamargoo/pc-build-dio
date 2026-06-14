@@ -6,7 +6,7 @@ Criei um projeto do zero aplicando as técnicas aprendidas!
 
 O projeto consiste em armazenar os dados de usuários assim como suas builds de PC.
 
-Primeiramente os testes das requisições foram feitos no Postman.
+Inicialmente os testes das requisições foram feitos no Postman.
 
 ---
 
