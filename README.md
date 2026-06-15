@@ -1,21 +1,25 @@
 # PC Build
 
-Esse desafio foi proposto na atividade "Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework" pela empresa DIO, o qual permitiu que eu aprendesse sobre os padrões de construção de projetos em Java com Spring Boot.
-
-Criei um projeto do zero aplicando as técnicas aprendidas!
-
-O projeto consiste em armazenar os dados de usuários assim como suas builds de PC.
-
-Inicialmente os testes das requisições foram feitos no Postman.
+Esse projeto foi desenvolvido como parte do desafio **"Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework"** proposto pela **DIO (Digital Innovation One)**. A aplicação consiste em um sistema para gerenciar usuários e suas respectivas configurações (builds) de PC, armazenando as informações em um banco de dados relacional.
 
 ---
 
-## Tecnologias Usadas
-- **Java 21**
-- **Spring Boot 4.0.6**
-- **H2** (banco de dados em memória)
-- **Maven** (gerenciador de dependências)
-- **Swagger** (documentação)
+## Objetivos
+
+- Criar um sistema completo (CRUD) para gerenciar usuários e configurações de PC.
+- Aprender e aplicar padrões de projeto na prática utilizando o ecossistema Spring Boot.
+- Relacionar dados no banco (vincular cada usuário à sua respectiva build de PC).
+- Gerar uma documentação interativa e visual para a API utilizando o Swagger.
+
+---
+
+## Tecnologias Utilizadas
+- **Java** (Linguagem de programação)
+- **Spring Boot** (Framework para o desenvolvimento da API)
+- **Spring Data JPA** (Gerenciamento e conexão com o banco de dados)
+- **Banco H2** (Banco de dados em memória para testes práticos)
+- **Maven** (Gerenciador de dependências do projeto)
+- **Swagger / OpenAPI** (Documentação visual dos endpoints)
 
 ---
 
@@ -26,9 +30,9 @@ Inicialmente os testes das requisições foram feitos no Postman.
 mvn spring-boot:run
 ```
 
----
-
 2. Para acessar a documentação Swagger enquanto o servidor está ativo, é só usar essa URL: http://localhost:8080/swagger-ui/index.html#/
+
+---
 
 ## Imagens da Documentação no Swagger
 
