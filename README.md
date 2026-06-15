@@ -14,8 +14,8 @@ Esse projeto foi desenvolvido como parte do desafio **"Design Patterns com Java:
 ---
 
 ## Tecnologias Utilizadas
-- **Java** (Linguagem de programação)
-- **Spring Boot** (Framework para o desenvolvimento da API)
+- **Java 17**
+- **Spring Boot 3.5.11**
 - **Spring Data JPA** (Gerenciamento e conexão com o banco de dados)
 - **Banco H2** (Banco de dados em memória para testes práticos)
 - **Maven** (Gerenciador de dependências do projeto)
