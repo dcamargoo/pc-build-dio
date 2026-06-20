@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido como parte do desafio **"Design Patterns com Java:
 
 ## Como Executar
 
-1. Certifique-se de ter a versão 17+ do Java.
+1. Certifique-se de ter o **Java 17+** instalado.
 
 2. Clone o repositório.
 
