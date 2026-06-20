@@ -6,10 +6,10 @@ Esse projeto foi desenvolvido como parte do desafio **"Design Patterns com Java:
 
 ## Objetivos
 
-- Criar um sistema para gerenciar usuários e configurações de PC (CPU, GPU, Memória RAM e HD/SSD), permitindo a insersão, remoção e leitura dos dados.
-- Aprender e aplicar padrões de projeto na prática utilizando o ecossistema Spring Boot.
-- Relacionar dados no banco (vincular cada usuário à sua respectiva build de PC).
-- Gerar uma documentação interativa e visual para a API utilizando o Swagger.
+- Criar um sistema para gerenciar usuários e configurações de PC (CPU, GPU, Memória RAM e HD/SSD), permitindo a insersão, remoção e leitura dos dados
+- Aprender e aplicar padrões de projeto na prática utilizando o ecossistema Spring Boot
+- Relacionar dados no banco (vincular cada usuário à sua respectiva build de PC)
+- Gerar uma documentação interativa e visual para a API utilizando o Swagger
 
 ---
 
@@ -25,9 +25,9 @@ Esse projeto foi desenvolvido como parte do desafio **"Design Patterns com Java:
 
 ## Como Executar
 
-1. Certifique-se de ter o **Java 17+** instalado.
+1. Certifique-se de ter o **Java 17+** instalado
 
-2. Clone o repositório.
+2. Clone o repositório
 
 3. Executar esse comando no diretório do projeto:
 ```bash
