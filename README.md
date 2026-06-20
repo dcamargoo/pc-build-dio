@@ -25,12 +25,16 @@ Esse projeto foi desenvolvido como parte do desafio **"Design Patterns com Java:
 
 ## Como Executar
 
-1. Executar esse comando no diretório do projeto:
+1. Certifique-se de ter a versão 17+ do Java
+
+2. Clone o repositório
+
+3. Executar esse comando no diretório do projeto:
 ```bash
 mvn spring-boot:run
 ```
 
-2. Para acessar a documentação Swagger enquanto o servidor está ativo, é só usar essa URL: http://localhost:8080/swagger-ui/index.html#/
+3. Para acessar a documentação Swagger enquanto o servidor está ativo, é só usar essa URL: http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
